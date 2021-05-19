@@ -108,7 +108,7 @@ M1対応済。[公式](https://zoom.us/jp-jp/meetings.html)からインストー
 
 ## VScode
 
-vscode.md に別途記載する。
+[vscode.md](/vscode.md) に別途記載する。
 
 ## Todo
 
