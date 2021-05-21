@@ -98,7 +98,7 @@ miniforgeを入れたほうが良いのかもしれないが、とりあえず�
 
 ## latex
 
-[Tex Wiki](https://texwiki.texjp.org/?TeX%20Live%2FMac)を参考にするとよい。GUIは使わないのでhomebrewでmaxtec-no-guiを入れる。
+[Tex Wiki](https://texwiki.texjp.org/?TeX%20Live%2FMac)を参考にするとよい。GUIは使わないのでhomebrewでmaxtex-no-guiを入れる。
 ```
 brew install --cask mactex-no-gui
 ```
