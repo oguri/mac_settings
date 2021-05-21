@@ -98,7 +98,7 @@ miniforgeを入れたほうが良いのかもしれないが、とりあえず�
 
 ## latex
 
-[Tex Wiki](https://texwiki.texjp.org/?TeX%20Live%2FMac)を参考にするとよい。GUIは使わないのでhomebrewでmaxtex-no-guiを入れる。
+[Tex Wiki](https://texwiki.texjp.org/?TeX%20Live%2FMac)を参考にするとよい。GUIは使わないのでhomebrewでmactex-no-guiを入れる。
 ```
 brew install --cask mactex-no-gui
 ```
@@ -107,6 +107,7 @@ brew install --cask mactex-no-gui
 sudo tlmgr update --self --all
 sudo tlmgr paper a4
 ```
+これも時間がかかったが無事インストールできたようだ。
 
 ## zoom
 
