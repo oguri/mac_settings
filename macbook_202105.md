@@ -68,7 +68,7 @@ Karabiner-Elementsを起動し、Complex modification > Add rule > Import more r
 
 ## Safari
 
-ブックマークは他の他のmacから`~/Library/Safari/Bookmarks.plist`をコピーすれば良い。環境設定で`ダウンロード後安全なファイルを開く`のチェックを外す。
+ブックマークは他のmacから`~/Library/Safari/Bookmarks.plist`をコピーすれば良い。環境設定で`ダウンロード後安全なファイルを開く`のチェックを外す。
 
 ## Chrome
 
@@ -102,7 +102,11 @@ miniforgeを入れたほうが良いのかもしれないが、とりあえず�
 ```
 brew install --cask mactex-no-gui
 ```
-やたら時間がかかる、、、まだ途中。
+やたら時間がかかるがひたすら待つ。入ったらターミナルを再起動して
+```
+sudo tlmgr update --self --all
+sudo tlmgr paper a4
+```
 
 ## zoom
 
@@ -114,6 +118,5 @@ M1対応済。[公式](https://zoom.us/jp-jp/meetings.html)からインストー
 
 ## Todo
 
-- latex (未完成)
 - メーラー (thunderbirdから移行したい)
 - python周りの整備
