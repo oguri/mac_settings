@@ -87,8 +87,11 @@ M1対応済。[公式](https://brew.sh/index_ja)に従ってターミナルか�
 - `brew install imagemagick`
 - `brew install wget`
 - `brew install gnuplot`
+- `brew install --cask emacs`
 
-`python`も入った。`/opt/homebrew/opt/python/libexec/bin`をパスに追加し、pipでいろいろ入れてみる
+emacsは文句を言われて開けないので、システム環境設定 > セキュリティとプライバシー > 一般から実行許可を与えると、その後普通に開けるようになる。
+
+brewにより`python`も入っている。`/opt/homebrew/opt/python/libexec/bin`をパスに追加し、pipでいろいろ入れてみる
 - `pip install matplotlib`
 - `pip install pandas`  
 - `pip install jupyter`
