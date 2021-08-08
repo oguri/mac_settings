@@ -112,6 +112,14 @@ sudo tlmgr paper a4
 ```
 これも時間がかかったが無事インストールできたようだ。
 
+## git
+
+初期設定をする (名前とメールアドレスは適宜自分のものに置き換える)
+```
+git config --global user.name "My Name"
+git config --global user.email myaddress@myaddress
+```
+
 ## zoom
 
 M1対応済。[公式](https://zoom.us/jp-jp/meetings.html)からインストーラをダウンロードして入れる。
