@@ -87,12 +87,15 @@ M1対応済。[公式](https://brew.sh/index_ja)に従ってターミナルか�
 - `brew install imagemagick`
 - `brew install wget`
 - `brew install gnuplot`
+- `brew install --cask emacs`
 
-`python`も入った。`/opt/homebrew/opt/python/libexec/bin`をパスに追加し、pipでいろいろ入れてみる
+emacsは文句を言われて開けないので、システム環境設定 > セキュリティとプライバシー > 一般から実行許可を与えると、その後普通に開けるようになる。
+
+brewにより`python`も入っている。`/opt/homebrew/opt/python/libexec/bin`をパスに追加し、pipでいろいろ入れてみる
 - `pip install matplotlib`
 - `pip install pandas`  
 - `pip install jupyter`
-- `pip install astropy` **なぜか失敗**、とりあえず保留
+- `pip install astropy` (なぜか失敗したが、後日やり直したら無事入った)
 
 miniforgeを入れたほうが良いのかもしれないが、とりあえず後で検討する。
 
@@ -117,7 +120,10 @@ M1対応済。[公式](https://zoom.us/jp-jp/meetings.html)からインストー
 
 [vscode.md](/vscode.md) に別途記載する。
 
+## Spark
+
+thunderbirdからの移行のテストにインストール。App storeからM1対応のものがインストールできる。(おそらくGmailで送信元アドレスとして登録されていれば) Gmailアカウントの送信元アドレスの変更は 環境設定 > アカウント > メールエイリアス に変更したいアドレスを入力すれば可能。
+
 ## Todo
 
-- メーラー (thunderbirdから移行したい)
 - python周りの整備
