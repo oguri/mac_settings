@@ -24,6 +24,7 @@ code .
 
 ## 設定 (Code > Preferences > Settings)
 
+- `Editor: Word Wrap` を `on` にする
 - `Latex-workshop > Latex > Auto Build: Run` を `never` にする
 - `Markdown-pdf: Executable Path` に以下のパスを追加
 ```
