@@ -122,7 +122,7 @@ git config --global user.email myaddress@myaddress
 
 ## zoom
 
-M1対応済。[公式](https://zoom.us/jp-jp/meetings.html)からインストーラをダウンロードして入れる。
+M1対応済。[公式](https://zoom.us/jp-jp/meetings.html)からインストーラをダウンロードして入れる。画面共有をするには セキュリティとプライバシー > プライバシー > 画面収録にzoomを追加する必要があるので注意。
 
 ## Slack
 
