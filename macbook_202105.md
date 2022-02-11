@@ -167,7 +167,7 @@ thunderbirdからの移行のテストにインストール。App storeからM1�
 
 ## Microsoft 365
 
-サイトライセンスがあるので[サインインしてOfficeをダウンロードしインストール](https://support.microsoft.com/ja-jp/office/microsoft-365-または-office-2021-を-pc-または-mac-にダウンロードしてインストール-または再インストールします-4414eaaf-0478-48be-9c42-23adc4716658#bkmk_signintodownload)を参考にインストールする。
+サイトライセンスがあるので[サインインしてOfficeをダウンロードしインストール](https://support.microsoft.com/ja-jp/office/microsoft-365-または-office-2021-を-pc-または-mac-にダウンロードしてインストール-または再インストールします-4414eaaf-0478-48be-9c42-23adc4716658#bkmk_signintodownload)を参考にインストールする。驚くべきことにTeamsはM1非対応 (2022年2月現在) らしい。WordやExcelは対応済。
 
 ## Todo
 
