@@ -5,7 +5,7 @@
 - MacBook Pro (M1X, 2021)
 - macOS: Monterey (最初にBig Surからアップデート)
 - memory: 64GB
-- storage: SSD 4B
+- storage: SSD 4TB
 - USキーボード
 
 移行アシスタントを使わず一から設定する。
@@ -43,7 +43,7 @@
 
 ## zsh
 
-デフォルトがzshのようなのでそのまま使用。他のmacから`.zshrc`をコピーすれば良い。
+デフォルトがzsh。他のmacから`.zshrc`をコピーすれば良い。
 
 ## Xcode
 
