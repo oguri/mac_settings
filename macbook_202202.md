@@ -121,4 +121,42 @@ M1対応済。[公式](https://www.thunderbird.net/ja/)からダウンロード�
 
 M1対応済。[公式](https://www.notion.so/ja-jp/desktop)からダウンロードしインストール。
 
+## homebrew
+
+M1対応済。[公式](https://brew.sh/index_ja)に従ってターミナルからインストール
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+最後にパスを通すように言われるので`.zshrc`を指示に従って編集。その後いろいろインストールしておく
+- `brew install gsl`
+- `brew install cfitsio`
+- `brew install fftw`
+- `brew install imagemagick`
+- `brew install wget`
+- `brew install gnuplot`
+- `brew install --cask emacs`
+
+emacsは文句を言われて開けないので、システム環境設定 > セキュリティとプライバシー > 一般から実行許可を与えると、その後普通に開けるようになる。
+
+brewにより`python`も入っている。`/opt/homebrew/opt/python/libexec/bin`をパスに追加し、pipでいろいろ入れてみる
+- `pip install matplotlib`
+- `pip install pandas`  
+- `pip install jupyter`
+- `pip install astropy`
+
+miniforgeを入れたほうが良いのかもしれないが、とりあえず後で検討する。
+
+## latex
+
+[Tex Wiki](https://texwiki.texjp.org/?TeX%20Live%2FMac)を参考にするとよい。GUIは使わないのでhomebrewでmactex-no-guiを入れる。
+```
+brew install --cask mactex-no-gui
+```
+わりと時間がかかるが待つ。入ったらターミナルを再起動して
+```
+sudo tlmgr update --self --all
+sudo tlmgr paper a4
+```
+これも多少時間がかかったが無事インストールできた。
+
 
