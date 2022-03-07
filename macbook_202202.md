@@ -88,7 +88,7 @@ git config -l
 
 ## Thunderbird
 
-M1ネイティブ対応済。[公式](https://www.thunderbird.net/ja/)からダウンロードしインストール。gmailアドレスを入力し初期設定後
+M1対応済。[公式](https://www.thunderbird.net/ja/)からダウンロードしインストール。gmailアドレスを入力し初期設定後
 - ツール > アカウント設定
     - デフォルト差出人情報のメールアドレスを変更
     - SMTPサーバーを編集
@@ -112,4 +112,13 @@ M1ネイティブ対応済。[公式](https://www.thunderbird.net/ja/)からダ�
     - `設定エディター`で`mailnews.send_plaintext_flowed`を`false`にする
 - Thunderbird > 設定 > 編集
     - `次のサイズより大きなファイルの添付時に...`のチェックを外す
+
+## カレンダー
+
+最初からインストールされている。使っているgoogleアカウントを追加。
+
+## Notion
+
+M1対応済。[公式](https://www.notion.so/ja-jp/desktop)からダウンロードしインストール。
+
 
