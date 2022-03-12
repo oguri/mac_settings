@@ -92,6 +92,9 @@ M1対応済。[公式](https://www.thunderbird.net/ja/)からダウンロード�
 - ツール > アカウント設定
     - デフォルト差出人情報のメールアドレスを変更
     - SMTPサーバーを編集
+    - `差出人情報を管理`から署名を追加
+          - `署名を挿入する位置`を`返信部の下`に
+          - `転送メッセージに自分の署名を挿入する`をチェック
 - ツール > アカウント設定 > サーバー設定
     -  `新着メールがないか1分ごとに確認する` (1分に設定)
     -  `終了時にゴミ箱を空にする`をチェック
@@ -110,6 +113,7 @@ M1対応済。[公式](https://www.thunderbird.net/ja/)からダウンロード�
     - `設定エディター`で`mail.wrap_long_lines`を`false`にする
     - `設定エディター`で`mailnews.wraplength`を`0`にする
     - `設定エディター`で`mailnews.send_plaintext_flowed`を`false`にする
+    - `設定エディター`で`mail.identity.???.suppress_signature_separator`を`true`にする
 - Thunderbird > 設定 > 編集
     - `次のサイズより大きなファイルの添付時に...`のチェックを外す
 
