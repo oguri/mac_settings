@@ -64,7 +64,7 @@ Karabiner-Elementsを起動し、Complex modification > Add rule > Import more r
 
 ## Safari
 
-ブックマークはiCouldで共有する。環境設定で`ダウンロード後安全なファイルを開く`のチェックを外す。`表示`でお気に入りバーを常に表示にする。
+ブックマークはiCloudで共有する。環境設定で`ダウンロード後安全なファイルを開く`のチェックを外す。`表示`でお気に入りバーを常に表示にする。
 
 ## Chrome
 
