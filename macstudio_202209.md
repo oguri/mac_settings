@@ -151,14 +151,18 @@ git config -l
 - `brew install gnuplot`
 - `brew install --cask emacs`
 - `brew install python`
-- `brew install scipy`
 
 `/opt/homebrew/opt/python/libexec/bin`をパスに追加し、pipでいろいろ入れてみる
+- `pip install scipy`
 - `pip install matplotlib`
 - `pip install pandas`  
+- `pip install setuptools_scm`
+- `pip install cython`
 - `pip install jupyter`
 - `pip install astropy`
 - `pip install colossus`
+- `pip install healpy`
+- `pip install ligo.skymap`
 
 miniforgeを入れたほうが良いのかもしれないが、とりあえず後で検討する。
 
