@@ -223,7 +223,7 @@ sudo tlmgr paper a4
 
 ## ds9
 
-[公式](https://sites.google.com/cfa.harvard.edu/saoimageds9)からAqua版をインストール。ベータ版を使用。
+[公式](https://sites.google.com/cfa.harvard.edu/saoimageds9)からAqua版をインストール。
 
 ## Apex One
 
